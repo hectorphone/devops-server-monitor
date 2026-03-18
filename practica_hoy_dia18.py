@@ -8,4 +8,4 @@ elif estado == "no":
 else:
     print("Entrada no valida")
 
-        
+        # prueba
