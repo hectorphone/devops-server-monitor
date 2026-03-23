@@ -1,25 +1,29 @@
-#Devops Server Monitor (Practice)
+# DevOps Server Monitor
 
-Pequeño Script en Python que simula la monitorización de servidores.
+Proyecto de prácticas en Python orientado a automatización básica y organización de scripts.
 
-##Función
+## Estructura del proyecto
 
-El Script revisa una lista de servidores y muestra si están OK o si hay errores.
+- `automatizacion/`: contiene el script `automatizacion.py` y la carpeta `prueba/`.
+- `monitor_servidores/`: contiene el script `monitor_servidores.py`.
+- `README.md`: documentación básica del proyecto.
 
-Ejemplo de salida:
+## Descripción
 
-Revisando web1
-OK
+### automatizacion
+Script en Python que permite:
+- pedir al usuario el nombre de una carpeta,
+- pedir un texto,
+- crear la carpeta si no existe,
+- guardar el texto en un archivo `log.txt`,
+- añadir entradas con formato `[LOG]`.
 
-Revisando web2
-OK
+### monitor_servidores
+Script en Python orientado a realizar comprobaciones básicas sobre servidores.
 
-Revisando db1
-ERROR
+## Uso
 
-Revisando db2
-OK
-
-##Objetivo
-
-Práctica de automatización con Python orientada a Devops.
+### Ejecutar el script de automatización
+```bash
+cd automatizacion
+python automatizacion.py
