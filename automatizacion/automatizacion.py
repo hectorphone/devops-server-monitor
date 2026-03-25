@@ -9,7 +9,7 @@ else:
     os.mkdir(carpeta)
     print("Carpeta creada")
     
-ruta = carpeta + "/log.txt"
+ruta = os.path.join(carpeta, "log.txt")
 print(ruta)
 
 archivo = open(ruta, "a", encoding="utf-8")
